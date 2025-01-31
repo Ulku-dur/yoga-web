@@ -1,4 +1,4 @@
-import PropTypes from "prop-types"; // prop-types kütüphanesini import ediyoruz
+import PropTypes from "prop-types"; // import prop-types lib.
 import { TiTick } from "react-icons/ti";
 
 const PriceCard = ({ price, plan }) => {
@@ -41,8 +41,8 @@ const PriceCard = ({ price, plan }) => {
 
 // Prop-types tanımlamaları
 PriceCard.propTypes = {
-  price: PropTypes.number.isRequired, // price bir number olmalı ve zorunlu
-  plan: PropTypes.string.isRequired, // plan bir string olmalı ve zorunlu
+  price: PropTypes.number.isRequired, // price must be a number
+  plan: PropTypes.string.isRequired, // plan should be a string
 };
 
 export default PriceCard;
