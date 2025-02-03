@@ -7,8 +7,5 @@
 body {
   font-family: "Playfair Display", serif;
 }
-@layer utilities {
-  .bg-navbar {
-      @apply bg-gradient-to-r from-pink-300 via-purple-300 to-indigo-400
-  }
+
 }
